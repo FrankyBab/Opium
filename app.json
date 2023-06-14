@@ -25,6 +25,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins":[
+      [
+      "expo-location",
+      {
+        "locationAlwaysAndWhenInUsePermission": "Allow Euphron to use ur location"
+      }
+      ]
+      ]
+
   }
 }

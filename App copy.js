@@ -17,8 +17,8 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={MyComponent} options={{ headerShown: false }} />
-        <Stack.Screen name="SearchScreen" component={SearchScreen} />
-        <Stack.Screen name="SearchByRectangleScreen" component={SearchByRectangleScreen} />
+        <Stack.Screen name="Search" component={SearchScreen} />
+        <Stack.Screen name="SearchByRectangle" component={SearchByRectangleScreen} />
         <Stack.Screen name="BlankPage" component={BlankPage} />
         <Stack.Screen name="PageSports" component={PageSports} />
         <Stack.Screen name="PageAmis" component={PageAmis} />
